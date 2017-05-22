@@ -57,7 +57,3 @@ The command accepts and additional argument `--hpconfig` which allows to overrid
 To run a version of the model with 2 layers and 4096 state size, simply call:
 
 `python single_lm_run.py --datadir /home/rafal/datasets/lm1b/ --logdir <log_dir> --hpconfig num_layers=2,state_size=4096`
-
-
-## Feedback
-Let me know if you have any questions or comments at rafjoz@gmail.com
